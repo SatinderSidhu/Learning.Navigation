@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" Title="Root Page" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Learning.Navigation" x:Class="Learning.Navigation.Learning_NavigationPage">
+	<StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+		<Label Text="Welcome to NavigationPage Example!" VerticalOptions="Center" HorizontalOptions="Center" />
+		<Button Text="Go to Page 1" Clicked="Handle_Clicked" Margin="5,50,10,10">
+		</Button>
+		<Button Text="Go to Page 2" Clicked="Handle_Clicked2" Margin="5,10,10,10">
+		</Button>
+		<Button Text="Take Me to List View" Clicked="Handle_ClickedList" BorderRadius="10" BorderColor="Blue">
+		</Button>
+	</StackLayout>
+</ContentPage>
