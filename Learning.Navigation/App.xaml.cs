@@ -8,10 +8,16 @@ namespace Learning.Navigation
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new  Learning_NavigationPage());
-			//MainPage = new Learning_NavigationPage();
+			var navigationPage = new NavigationPage(new  Learning_NavigationPage());
 
-			//MainPage = new  MenePage();
+			// Set the title color
+			navigationPage.BarBackgroundColor = Color.Yellow;
+			navigationPage.BarTextColor = Color.Blue;
+
+		
+			MainPage = navigationPage;
+
+	
 		}
 
 		protected override void OnStart()
